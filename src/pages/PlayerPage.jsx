@@ -20,7 +20,7 @@ function PlayerPage() {
   }
 
   return (
-    <div className="flex flex-col lg:flex-row p-4 gap-4">
+    <div className="flex flex-col lg:flex-row p-4 gap-4 bg-black">
       <div className="flex-1">
         <VideoPlayer embedUrl={video.embedUrl} />
         <VideoDetails video={video} />

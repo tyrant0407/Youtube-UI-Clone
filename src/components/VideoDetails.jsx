@@ -2,7 +2,7 @@ function VideoDetails({ video }) {
     return (
       <div className="mt-4">
         {/* Title */}
-        <h1 className="text-xl font-bold">{video.title}</h1>
+        <h1 className="text-xl font-bold text-white">{video.title}</h1>
   
         {/* Views + Buttons */}
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mt-2 gap-3">
@@ -32,11 +32,11 @@ function VideoDetails({ video }) {
             className="w-12 h-12 rounded-full"
           />
           <div className="flex-1">
-            <p className="font-semibold">{video.channel}</p>
+            <p className="font-semibold text-white">{video.channel}</p>
             <p className="text-xs text-gray-500">1.5M subscribers</p>
-            <p className="mt-2 text-sm">{video.description}</p>
+            <p className="mt-2 text-sm text-gray-500">{video.description}</p>
           </div>
-          <button className="bg-black text-white px-4 py-2 rounded-full text-sm">
+          <button className="bg-white text-black px-4 py-2 rounded-full text-sm">
             Subscribe
           </button>
         </div>

@@ -6,7 +6,7 @@ import VideoList from "../components/VideoList";
 const Home = () => {
     const { menuToggle} = useContext(MyStore);
   return (
-    <div className='h-screen w-screen bg-black pt-15'> 
+    <div className='h-screen w-screen bg-black pt-15 overflow-hidden'> 
         <div className="fixed top-0 left-0 w-full z-10">
     <Navbar />
     </div>

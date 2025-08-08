@@ -7,7 +7,7 @@ function Comments() {
   
     return (
       <div className="mt-8">
-        <h2 className="text-lg font-semibold mb-4">Comments</h2>
+        <h2 className="text-lg font-semibold mb-4 text-white">Comments</h2>
   
         {/* Comment Input */}
         <div className="flex items-start gap-3 mb-6">
@@ -32,10 +32,10 @@ function Comments() {
               className="w-10 h-10 rounded-full"
             />
             <div>
-              <p className="text-sm font-semibold">
-                {c.user} <span className="text-xs text-gray-500">• 2 days ago</span>
+              <p className="text-sm font-semibold text-white">
+                {c.user} <span className="text-xs">• 2 days ago</span>
               </p>
-              <p className="text-sm text-gray-800">{c.text}</p>
+              <p className="text-sm text-gray-500">{c.text}</p>
               <div className="flex gap-4 mt-1 text-sm text-gray-500">
                 <button><i className="ri-thumb-up-line"></i> 5</button>
                 <button><i className="ri-thumb-down-line"></i></button>
